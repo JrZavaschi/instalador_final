@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link da sua instalção King Ticket que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link da sua instalção Smart Whats que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,7 +201,7 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador King Ticket, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Smart Whats, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
   printf "${GREEN}   [0] ${WHITE} • ${YELLOW} INSTALAR\n"
   printf "${GREEN}   [1] ${WHITE} • ${YELLOW} ATUALIZAR\n"
