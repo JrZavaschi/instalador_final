@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GitHub que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link da sua instalção King Ticket que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador King Ticket, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar\n"
-  printf "   [1] Atualizar\n"
-  printf "   [2] Deletar\n"
-  printf "   [3] Bloquear\n"
-  printf "   [4] Desbloquear\n"
-  printf "   [5] Alter. dominio\n"
+  printf "${GREEN}   [0] ${WHITE} • ${YELLOW} INSTALAR\n"
+  printf "${GREEN}   [1] ${WHITE} • ${YELLOW} ATUALIZAR\n"
+  printf "${GREEN}   [2] ${WHITE} • ${YELLOW} DESINSTALAR\n"
+  printf "${GREEN}   [3] ${WHITE} • ${YELLOW} BLOQUEAR\n"
+  printf "${GREEN}   [4] ${WHITE} • ${YELLOW} DESBLOQUEAR\n"
+  printf "${GREEN}   [5] ${WHITE} • ${YELLOW} ALTERAR DOMINIO\n"
   printf "\n"
   read -p "> " option
 
