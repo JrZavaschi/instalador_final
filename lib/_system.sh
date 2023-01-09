@@ -36,7 +36,9 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone ${link_git} /home/deploy/${instancia_add}/
+  
+  cp -r /home/ubuntu/smartchat/ /home/deploy/${instancia_add}/
+
 EOF
 
   sleep 2
